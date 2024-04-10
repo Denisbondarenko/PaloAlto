@@ -1,0 +1,8 @@
+curl -k -X POST "https://PUT_YOUR_FIREWALL_IP_HERE/restapi/9.0/Objects/Addresses?location=vsys&vsys=vsys1&name=PUT_YOUR_OBJECT_NAME_HERE&key=PUT_YOUR_API_KEY_HERE" -d \
+'{ 
+  "entry": 
+        { "@name" : "PUT_YOUR_OBJECT_NAME_HERE", 
+	  "description": "PUT_YOUR_DESCRIPTION HERE", 
+	  "ip-netmask" : "PUT_YOUR_OBJECT_IP_HERE" }
+}' | jq
+
