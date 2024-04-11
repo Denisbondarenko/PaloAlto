@@ -27,7 +27,7 @@ if __name__ == '__main__':
     api_user       = "PUT_YOUR_USERNAME_HERE"
     api_password   = "PUT_YOUR_PASSWORD_HERE"
     panorama_ip    = "PUT_YOUR_PANORAMA_IP_HERE"
-    rule_file      = "lab9-rules.csv"
+    rule_file      = "SampleRuleFile.csv"
     #---------------------------------------------------------------------------------------------------------------------------------------------------
 
     panorama_prod  = panorama.Panorama(hostname=panorama_ip, api_username=api_user, api_password=api_password)
